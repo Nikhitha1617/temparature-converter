@@ -1,0 +1,98 @@
+/* Reset default margin and padding for consistency */
+body, h1, p, ul, li, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a consistent font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(96, 18, 84);
+}
+
+/* Center the container vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the converter box */
+.converter {
+    background-color: #deb5b5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(7, 0, 0, 0.2);
+    padding: 40px;
+    text-align: center;
+    max-width: 1600px;
+}
+P{
+    font-size: 18PX;
+    font-weight: 100;
+    padding-top: 25px;
+}
+/* Style the converter title */
+h1 {
+    color: #371111;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input group */
+.input,.output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Style the temperature input */
+#inputTemperature, #outputTemperature {
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid #204f82;
+    padding: 08px;
+    font-size: 18px;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    color: #d55151;
+}
+
+/* Style the unit select */
+#from, #to {
+    flex: 10;
+    border: 2px solid #fff;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #0b2847;
+    color:#fff;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+/* Style the result text */
+#output {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Style the convert button */
+#convert {
+    background-color: #0b2847;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    padding-top: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#convert:hover {
+    background-color: #1567bf;
+}
